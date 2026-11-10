@@ -15,5 +15,6 @@ data class TransactionEntity(
     val source: String,
     val category: String? = null,
     val intent: String? = null,
-    val status: String = "AWAITING_CATEGORY"
+    val status: String = "AWAITING_CATEGORY",
+    val fund: String? = null
 )
